@@ -8,11 +8,9 @@ interface Props {
 export const Separator = ({ style }: Props) => {
   return (
     <View
-      style={
-        {
-          // backgroundColor: colors.cardBackground,
-        }
-      }>
+      style={{
+        backgroundColor: colors.cardBackground,
+      }}>
       <View
         style={[
           {
