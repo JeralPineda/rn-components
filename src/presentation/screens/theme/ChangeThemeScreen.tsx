@@ -10,7 +10,10 @@ export const ChangeThemeScreen = () => {
 
   return (
     <CustomView margin>
-      <Title text={`Cambiar tema: ${currentTheme}`} safe />
+      <Title
+        text={`Cambiar tema: ${currentTheme === "dark" ? "🌙" : "☀️ "}`}
+        safe
+      />
 
       <Button text="Light" onPress={() => setTheme("light")} />
 
